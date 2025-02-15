@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myMusic</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li>
+          <div class="logo">
+            <img src="logo2.png.png" alt="Spotify" />
+            <span>myMusic</span>
+          </div>
+        </li>
+      </ul>
+      <li>Home</li>
+      <li>About</li>
+    </div>
+
+    <div class="container">
+      <div class="songlist">
+        <h1>Best of Music 🎧</h1>
+        <div class="songItem">
+          <img src="covers/song1_cover.jpg" alt="song1" />
+          <div class="songInfo">
+            <h3 class="songName">Khairiyat (3:24)</h3>
+            <p>Arijit Singh</p>
+            <i
+              id="0"
+              class="far playThisSong fa-2x fa-solid fa-circle-play"
+            ></i>
+          </div>
+        </div>
+        <div class="songItem">
+          <img src="covers/song2_cover.jpg" alt="song2" />
+          <div class="songInfo">
+            <h3 class="songName">Shaam Gulabi (3:24)</h3>
+            <p>Sachin-Jigar</p>
+            <i
+              id="1"
+              class="far playThisSong fa-2x fa-solid fa-circle-play"
+            ></i>
+          </div>
+        </div>
+        <div class="songItem">
+          <img src="covers/song3_cover.jpg" alt="song1" />
+          <div class="songInfo">
+            <h3 class="songName">Tenu Sangh Rakhna (3:24)</h3>
+            <p>Arijit Singh</p>
+            <i
+              id="2"
+              class="far playThisSong fa-2x fa-solid fa-circle-play"
+            ></i>
+          </div>
+        </div>
+        <div class="songItem">
+          <img src="covers/song4_cover.jpg" alt="song1" />
+          <div class="songInfo">
+            <h3 class="songName">Pinkly pom (3:24)</h3>
+            <p>Arijit Singh</p>
+            <i
+              id="3"
+              class="far playThisSong fa-2x fa-solid fa-circle-play"
+            ></i>
+          </div>
+        </div>
+        <div class="songItem">
+          <img src="covers/song5_cover.jpg" alt="song1" />
+          <div class="songInfo">
+            <h3 class="songName">Ishq (3:24)</h3>
+            <p>Arijit Singh</p>
+            <i
+              id="4"
+              class="far playThisSong fa-2x fa-solid fa-circle-play"
+            ></i>
+          </div>
+        </div>
+        <div class="songItem">
+          <img src="covers/song6_cover.jpg" alt="song1" />
+          <div class="songInfo">
+            <h3 class="songName">Qurban Hua (3:24)</h3>
+            <p>Arijit Singh</p>
+            <i
+              id="5"
+              class="far playThisSong fa-2x fa-solid fa-circle-play"
+            ></i>
+          </div>
+        </div>
+        <div class="songItem">
+          <img src="song7_cover.jpg" alt="song1" />
+          <div class="songInfo">
+            <h3 class="songName">Meri Banogi Kya (3:24)</h3>
+            <p>Arijit Singh</p>
+            <i
+              id="6"
+              class="far playThisSong fa-2x fa-solid fa-circle-play"
+            ></i>
+          </div>
+        </div>
+        <div class="songItem">
+          <img src="covers/song8_cover.jpg" alt="song1" />
+          <div class="songInfo">
+            <h3 class="songName">Ishq Hai (3:24)</h3>
+            <p>Arijit Singh</p>
+            <i
+              id="7"
+              class="far playThisSong fa-2x fa-solid fa-circle-play"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="songbanner"></div>
+    </div>
+
+    <div class="controls">
+      <input
+        type="range"
+        name="range"
+        id="progressbar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <i class="far fa-2x fa-solid fa-backward" id="previous"></i>
+        <i class="far fa-2x fa-solid fa-circle-play" id="playSong"></i>
+        <i class="far fa-2x fa-solid fa-forward" id="next"></i>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

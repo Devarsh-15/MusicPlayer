@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(26, 26, 27);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.logo {
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.logo img {
+  height: 55px;
+}
+
+li {
+  padding: 12px;
+  list-style: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.container {
+  min-height: 140vh;
+  background-color: black;
+  font-family: varela round;
+  color: white;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.songItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(62, 63, 107);
+  width: 100%;
+}
+.songItem img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  margin-right: 10px;
+}
+
+.songItem h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.songInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.songInfo i {
+  cursor: pointer;
+}
+.songlist h1 {
+  margin-top: 20px;
+}
+
+.controls {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+.icons i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+#progressbar {
+  margin-top: 15px;
+  width: 70%;
+  cursor: pointer;
+}
